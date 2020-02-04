@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Scott McHodgkins">
+  <title>Choose your fate!</title>
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/header.css">
+  <link rel="stylesheet" href="./css/story.css">
+</head>
+
+<body>
+  <header>
+    <div class="menu">
+      <a href="./index.html">Home</a>
+    </div>
+    <div class="menu dropdown">
+      <a href="">Projects</a>
+      <div class="drop-content">
+        <div class="drop-item">
+          <a href="./cyoa.html">Choose your own Adventure</a>
+        </div>
+      </div>
+    </div>
+  </header>
+  <h1 class="content" id="title">Cat Adventure</h1>
+  <div class="content">
+    <img src="./images/cat.jpg">
+    <p id="chapterTitle">
+      Chapter 1: Getting outside
+    </p>
+    <p class="story" id="mainText">
+      A bird is chirping outside. You know you're not supposed to go outside...but you want to get it. <br> Do you go...
+    </p>
+    <p id="choice"> Choices: <button type="button" id="escape1">Window</button> or <button type="button" id="escape2">Front door</button></p>
+
+
+  </div>
+  <script src="./js/cyoa.js"></script>
+</body>
+
+</html>
