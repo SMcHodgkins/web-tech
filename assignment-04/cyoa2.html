@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Scott McHodgkins">
+  <link rel="icon" href="./images/palp.png">
+  <title>Adventure!</title>
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/header.css">
+  <link rel="stylesheet" href="./css/story.css">
+  <script src="./js/cyoa2.js"></script>
+</head>
+
+<body>
+  <header>
+    <div class="menu">
+      <a href="./index.html">Home</a>
+    </div>
+    <div class="menu dropdown">
+      <a href="./index.html#projects">Projects</a>
+      <div class="drop-content">
+        <div class="drop-item">
+          <a href="./cyoa.html">Choose your own Adventure</a>
+        </div>
+        <div class="drop-item">
+          <a href="./cyoa2.html">Choose your own Adventure 2</a>
+        </div>
+      </div>
+    </div>
+  </header>
+  <h1 class="content" id="title">Shipwreck!</h1>
+  <div class="content">
+    <img src="./images/shipwreck.jpg">
+    <p id="chapterTitle">
+      Fire! The ship is sinking!
+    </p>
+    <p class="story" id="mainText">
+      Nearly at your destination and suddenly the ship is engulfed in flames.
+      <br>
+      <p class="story" id="choices">You can either <b>jump</b> or attempt to <b>extinguish</b> the fire.</p>
+    </p>
+    <label id="lblName">Your choice...</label><br>
+      <input id="txtBox" type="text"><br>
+      <button type="button" id="submit" onclick="adventure();">Submit</button>
+    </div>
+</body>
+
+</html>
