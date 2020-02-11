@@ -1,7 +1,5 @@
-# Assignment 3
+# Assignment 4
 ---
-I couldn't figure out why my "window()" function wouldn't function. Turns out window is already a function. Fantastic.
+This was a disaster. I couldn't get variables to stick. Had to create a work around for checking for a div that I used to store information if you picked up a weapon. I couldn't get the skeleton to actually die because of the way I set up the for loop. I tried doing a while(skeleton=alive/true) but that didn't work.
 
-I had an issue where I attempted to change the id of an element using js and then immediately attempt to change the html. Instead I just changed the html and then changed the id and that worked.
-
-I chose a branching story and that was a mistake, but at least I could re-use a bunch of the code.
+At a certain point I felt like I was banging my head against it without making much progress so I stopped.
