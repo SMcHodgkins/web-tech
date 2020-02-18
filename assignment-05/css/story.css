@@ -1,0 +1,27 @@
+.story {
+  font-style: italic;
+  font-size: 20px;
+}
+img {
+  max-width: 75%;
+}
+#chapterTitle {
+  text-decoration: underline;
+  font-size: 50px;
+}
+#title {
+  font-size: 50px;
+}
+.table{
+  display:table;
+}
+.tableBody{
+  display: table-row-group;
+}
+.row{
+  display: inline;
+}
+.cell {
+  width: 200px;
+  display: table-cell;
+}
