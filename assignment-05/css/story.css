@@ -12,16 +12,13 @@ img {
 #title {
   font-size: 50px;
 }
-.table{
-  display:table;
-}
-.tableBody{
-  display: table-row-group;
-}
-.row{
-  display: inline;
-}
-.cell {
+img {
   width: 200px;
-  display: table-cell;
+}
+.container{
+  columns: 2;
+  column-gap: 10px;
+}
+#left {
+  width:200px
 }
