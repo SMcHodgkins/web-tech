@@ -12,3 +12,5 @@ https://smchodgkins.github.io/web-tech/assignment-03
 https://smchodgkins.github.io/web-tech/assignment-04
 
 https://smchodgkins.github.io/web-tech/assignment-05
+
+https://smchodgkins.github.io/web-tech/assignment-06
