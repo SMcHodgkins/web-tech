@@ -36,9 +36,11 @@ function initializeArray(){
 }
 function information(){
   //console.log(vf1.theTitle);
-  document.getElementById('title').innerHTML = viewFinderArray[3].theTitle;
-  document.getElementById('vfImage').src = viewFinderArray[3].theImage;
-  document.getElementById('description').innerHTML = viewFinderArray[3].theDescription;
-  document.getElementById('author').innerHTML = "Author: " + viewFinderArray[3].theAuthor;
-  document.getElementById('year').innerHTML = "Year: " + viewFinderArray[3].theYear;
+  var random = Math.floor(Math.random()*4);
+  document.getElementById('title').innerHTML = viewFinderArray[random].theTitle;
+  document.getElementById('vfImage').src = viewFinderArray[random].theImage;
+  document.getElementById('description').innerHTML = viewFinderArray[random].theDescription;
+  document.getElementById('author').innerHTML = "Author: " + viewFinderArray[random].theAuthor;
+  document.getElementById('year').innerHTML = "Year: " + viewFinderArray[random].theYear;
+  console.log(random);
 }
