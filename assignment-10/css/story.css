@@ -1,0 +1,27 @@
+.story {
+  font-style: italic;
+  font-size: 20px;
+}
+img {
+  max-width: 75%;
+}
+#chapterTitle {
+  text-decoration: underline;
+  font-size: 50px;
+}
+#title {
+  font-size: 50px;
+}
+img {
+  width: 200px;
+}
+.container{
+  columns: 2;
+  column-gap: 10px;
+}
+#left {
+  width:200px
+}
+#btnSubmit {
+  background-color: #d46969;
+}
