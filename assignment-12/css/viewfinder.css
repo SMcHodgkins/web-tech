@@ -1,0 +1,34 @@
+img {
+  max-width: 75%;
+}
+#title {
+  font-size: 50px;
+}
+#btnSubmit {
+  background-color: #d46969;
+}
+
+.square {
+  width: 100px;
+  height: 100px;
+  background: blue;
+  position: absolute;
+  opacity: 0.5;
+}
+#sqr1 {
+  left: 200px;
+  top: 300px;
+}
+#sqr2 {
+  left: 400px;
+  top: 500px;
+}
+
+#sqr3 {
+  left: 600px;
+  top: 700px;
+}
+#sqr4 {
+  left: 800px;
+  top: 900px;
+}
